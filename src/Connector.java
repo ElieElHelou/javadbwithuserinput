@@ -9,6 +9,7 @@ public class Connector {
         String dbUser = "testuser";
         String dbPassword = "testpassword";
         String url = "jdbc:mysql://localhost/" + dbName;
+
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             dbLink = DriverManager.getConnection(url,dbUser,dbPassword);

@@ -1,6 +1,6 @@
 ## Initializing the app
 
-First, compile the java files using command 'javac Main.java Info.java Connector.java' inside 'src' directory. Then, run the app using command 'java Main'. If you are using Visual Studio Code, clone the repository as in and run.
+First, compile the java files using command 'javac Main.java Info.java Connector.java' inside 'src' directory. Then, run the app using command 'java -cp mysql-connector-java-8.0.27.jar Main'. If you are using Visual Studio Code, clone the repository as in and run.
 
 ## Scenarios and Commands 
 
