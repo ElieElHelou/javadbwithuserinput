@@ -1,6 +1,6 @@
 ## Initializing the app
 
-First, compile the java files using command 'javac Main.java Info.java Connector.java' inside 'src' directory. Then, run the app using command 'java -cp mysql-connector-java-8.0.27.jar Main'. If you are using Visual Studio Code, clone the repository as in and run.
+First, compile the java files using command 'javac Main.java Info.java Connector.java' inside 'src' directory. Then, run the app using command 'java Main'. If you are using Visual Studio Code, clone the repository as in and run.
 
 ## Scenarios and Commands 
 
@@ -10,7 +10,7 @@ Upon initialization, a message detailing the permissible commands will be displa
 
     2) '-signin' will prompt you for your username and password then attempt to sign you in by verifying your credentials in the database.
     
-    3) '-quit' used to exit the program at any stage of operations.
+    3) '-quit' used to exit the program at any stage of operations, with the exception of the "Signed in" state, in which you'll have to sign out first.
 
 Once signed in, any input will result in the message '<< User Activity >>', with the exception of '-signout' which will return you to the lobby.
 
