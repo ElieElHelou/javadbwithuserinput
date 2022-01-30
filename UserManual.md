@@ -1,6 +1,6 @@
 ## Initializing the app
 
-First, compile the java files using command 'javac Main.java Info.java Connector.java' inside 'src' directory. Then, run the app using command 'java Main'. If you are using Visual Studio Code, clone the repository as in and run.
+First, compile the java files using command 'javac Main.java Info.java Connector.java' inside 'src' directory. Then, run the app using command 'java Main' (This is for terminal users. See 'Slight Issues' at the end). If you are using Visual Studio Code, clone the repository as in and run.
 
 ## Scenarios and Commands 
 
@@ -21,3 +21,7 @@ The app was made using Visual Studio Code in Java Runtime JDK 17.0.1.12 (Eclipse
 The database was made using MySQL Workbench 8.0 CE and the server run locally using MySQL Server. The JDBC driver is MySQL Connector (Platform Independent, Architecture Independent) ver.8.0.27 for Java (jar file in 'src' folder).
 
 Check 'scrnshot' folder to visualize operations.
+
+## Slight Issues
+
+Couldn't setup the driver in the classpath (kept making a "Class not found" exception). It's best to setup the driver in your IDE and run it.
