@@ -32,10 +32,8 @@ public class Main {
             while (qr.next()) {
                 if (qr.getInt(1) == 1) {
                     result = 1;
-                    //System.out.println("Login Success!");
                 } else {
                     result = 0;
-                    //System.out.println("Login Failure!");
                 }
             }
         } catch (Exception e) {
@@ -198,10 +196,12 @@ public class Main {
                 System.out.println("Signing out...");
             }
             else{
+                if (currinput.equals("-quit")){
+                    break;
+                }
+
                 System.out.println("Please enter a valid command!");
             }
-            //currinput = sc.nextLine();
-
         }
 
         System.out.println("Closing app...");
